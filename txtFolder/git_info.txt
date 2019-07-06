@@ -1,0 +1,25 @@
+git 정리
+
+-참고 web
+  ㄴ https://freeprog.tistory.com/72
+
+1) 이름 등록하기
+git config --global user.name "사용자명"
+
+2) e-mail 등록하기
+git config --global user.email "메일 주소"
+
+** 설정 확인하기
+git config --list
+
+3) git 사용하기
+현재 폴더를 git 로컬 저장소로 등록하기
+git init
+
+파일 index // upload
+git add 파일명  // ex) git add t.txt
+
+4)commit 하기
+git commit -m "initial commit"
+
+
